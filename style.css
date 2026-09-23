@@ -1,0 +1,123 @@
+html {
+	background-color: gainsboro;
+	color: black;
+	text-align: justify;
+	font-family: "Archivo", sans-serif ;
+	font-size: 1.2rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%;
+}
+
+body{
+	padding: 5rem;
+}
+
+em{
+	font-style: italic;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: "Archivo Narrow", sans-serif ;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 5rem;
+	font-weight: 700;
+	padding: 3rem;
+}
+
+h2 {
+	font-family: "Archivo Narrow", sans-serif ;
+	text-transform: uppercase;
+	font-size: 3rem;
+	line-height: 95%;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+h3 {
+	font-family: "Archivo Narrow", sans-serif ;
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-top: 3rem;
+	padding-bottom: 0.75rem;
+}
+
+h3::before,
+h3::after {
+	color: black;
+	content: ' ✤ ';
+}
+
+hgroup {
+	font-size: 0.7rem;
+	line-height: 120%;
+	text-align: center;
+}
+
+blockquote {
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-align: center;
+	color: black;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+
+blockquote:hover {
+	color: rgb(218, 30, 30);
+	font-style: italic;
+}
+
+* * * {
+	margin-block-start: 1rem;
+}
+
+nav {
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+footer {
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+a:link{
+	color:black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: rgb(218, 30, 30);
+}
+
+details {
+	font-size: 0.7rem;
+	font-weight: 700;
+	text-align: center;
+	line-height: 120%;
+}
+
+details[open] {
+	color: rgb(142, 107, 107);
+	font-weight: 400;
+}
+
+.highlight {
+	font-size: 0.7rem;
+	text-align: center;
+	background-color:black;
+	color: gainsboro;
+	padding-left: 0.5rem;
+}
+
+.divider {
+	font-size: 0.7rem;
+	text-align: center;
+	background-color:black;
+	padding-left: 0.5rem;
+}
