@@ -1,3 +1,5 @@
+/* VARIABLES */
+
 :root {
 	--color-bg: gainsboro;
 	--color-fg: black;
@@ -15,6 +17,8 @@
 	--size-h2: 5rem;
 	--size-h3: 1.25rem;
 }
+
+/* STRUCTURE */
 
 * {
 	margin-block-start: 1rem;
@@ -34,14 +38,37 @@ body{
 	padding-inline: 15rem;
 }
 
+section {
+	margin-block-start: 4rem;
+	margin-block-end: 8rem;
+}
+
 footer {
-	font-size: var(--font-body);
 	text-align: center;
 	background-color: var(--color-fg);
 	margin-block-end: 2rem;
 }
 
-section {
-	margin-block-start: 4rem;
-	margin-block-end: 8rem;
+/* CONTENTS */
+
+h1, h2, h3 {
+	font-family: var(--font-dspl);
+	font-style: normal;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+em, cite{
+	font-style: italic;
+}
+
+/* LINKS */
+
+a:link{
+	font-weight: var(--text-bd);
+}
+
+a:hover {
+	color: var(--color-hgl);
 }

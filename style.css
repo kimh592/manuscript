@@ -1,3 +1,5 @@
+/* NAVIGATION */
+
 nav {
 	position: fixed;
 	top: 0.25rem;
@@ -22,13 +24,7 @@ summary:hover {
 	color: var(--color-hgl);
 }
 
-h1, h2, h3 {
-	font-family: var(--font-dspl);
-	font-style: normal;
-	text-transform: uppercase;
-	font-weight: 700;
-	text-align: center;
-}
+/* HEADINGS */
 
 h1 {
 	font-size: var(--size-h1);
@@ -54,6 +50,8 @@ h3::before, h3::after {
 	content: ' ✤ ';
 }
 
+/* BLOCKQUOTES */
+
 blockquote {
 	padding: 2rem;
 	padding-block-start: 1rem;
@@ -63,6 +61,18 @@ blockquote {
 	margin-block: 5rem;
 }
 
+/* LINKS */
+
+p a {
+	text-decoration: underline;
+}
+
+/* INLINE TEXT */
+
+em {
+	font-weight: var(--text-bd);
+}
+
 q:hover {
 	font-weight: var(--text-bd);
 	text-transform: uppercase;
@@ -70,25 +80,7 @@ q:hover {
 	color: var(--color-hgl);
 }
 
-a:link{
-	font-weight: var(--text-bd);
-}
-
-a:hover {
-	color: var(--color-hgl);
-}
-
-p a {
-	text-decoration: underline;
-}
-
-em, cite{
-	font-style: italic;
-}
-
-em {
-	font-weight: var(--text-bd);
-}
+/* DIVIDERS */
 
 .divider {
 	font-size: 0.7rem;
