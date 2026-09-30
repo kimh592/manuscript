@@ -1,0 +1,45 @@
+:root {
+	--color-bg: gainsboro;
+	--color-fg: black;
+	--color-hgl: darkred;
+
+	--font-body: "Archivo", sans-serif;
+	--font-dspl: "Archivo Narrow", sans-serif;
+
+	--text-rg: 400;
+	--text-md: 500;
+	--text-bd: 700;
+
+	--size-body: 1.25rem;
+	--size-h1: 10rem;
+	--size-h2: 5rem;
+	--size-h3: 1.25rem;
+}
+
+* {
+	margin-block-start: 1rem;
+}
+
+html {
+	font-size: var(--size-body);
+	font-weight: var(--text-rg);
+	background-color: var(--color-bg);
+}
+
+body{
+	font-family: var(--font-body);
+	line-height: 140%;
+	text-align: justify;
+	color: var(--color-fg);
+	padding-inline: 15rem;
+}
+
+footer {
+	font-size: var(--font-body);
+	text-align: center;
+}
+
+section {
+	margin-block-start: 4rem;
+	margin-block-end: 8rem;
+}
