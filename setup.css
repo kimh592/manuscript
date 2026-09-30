@@ -37,6 +37,8 @@ body{
 footer {
 	font-size: var(--font-body);
 	text-align: center;
+	background-color: var(--color-fg);
+	margin-block-end: 2rem;
 }
 
 section {

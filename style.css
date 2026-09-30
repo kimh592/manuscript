@@ -82,9 +82,12 @@ p a {
 	text-decoration: underline;
 }
 
-em{
-	font-weight: var(--text-md);
+em, cite{
 	font-style: italic;
+}
+
+em {
+	font-weight: var(--text-bd);
 }
 
 .divider {
