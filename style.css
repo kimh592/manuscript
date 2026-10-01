@@ -58,7 +58,7 @@ h2 {
 h3 {
 	font-size: var(--size-h3);
 	line-height: var(--size-h3);
-	margin-block: calc(var(--sp-sm) * 2);
+	margin-block: var(--sp-sm);
 }
 
 h4::before, h4::after {
@@ -71,12 +71,13 @@ header {
 	padding-block-start: var(--sp-sm);
 	inset-block-start: 0;
 	max-inline-size: 40rem;
+	background-color: var(--color-bg);
 }
 
 hgroup {
 	position: sticky;
-	padding-block-start: 0.25rem;
-	inset-block-start: 20rem;
+	padding-block: 0.5rem;
+	inset-block-start: 19.5rem;
 	background-color: var(--color-bg);
 	max-inline-size: 40rem;
 }
