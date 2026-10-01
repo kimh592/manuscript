@@ -1,9 +1,10 @@
 /* VARIABLES */
 
 :root {
-	--color-bg: gainsboro;
+	--color-bg: rgb(117, 191, 147);
 	--color-fg: black;
-	--color-hgl: darkred;
+	--color-hgl: rgb(47, 106, 71);
+	--color-bq: gainsboro;
 
 	--font-body: "Archivo", sans-serif;
 	--font-dspl: "Archivo Narrow", sans-serif;
@@ -12,16 +13,16 @@
 	--text-md: 500;
 	--text-bd: 700;
 
-	--size-body: 1.25rem;
+	--size-body: 1rem;
 	--size-h1: 10rem;
-	--size-h2: 5rem;
-	--size-h3: 1.25rem;
+	--size-h2: 8rem;
+	--size-h3: 4rem;
 }
 
 /* STRUCTURE */
 
 * {
-	margin-block-start: 1rem;
+	margin-block-start: 2rem;
 }
 
 html {
@@ -32,10 +33,16 @@ html {
 
 body{
 	font-family: var(--font-body);
-	line-height: 140%;
-	text-align: justify;
+	line-height: 150%;
+	text-align: left;
+	align-content: center;
 	color: var(--color-fg);
-	padding-inline: 15rem;
+	padding-inline: 20rem;
+}
+
+p{
+	max-inline-size: 65ch;
+	margin-inline: auto;
 }
 
 section {
@@ -51,7 +58,7 @@ footer {
 
 /* CONTENTS */
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: var(--font-dspl);
 	font-style: normal;
 	text-transform: uppercase;
